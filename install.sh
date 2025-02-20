@@ -19,13 +19,13 @@
 
 
 # Where the user Klipper config is located (ie. the one used by Klipper to work)
-USER_CONFIG_PATH="${HOME}/printer_data/config"
+USER_CONFIG_PATH="opt/iFactory3D_Gen3/klipper/printer_data/config"
 # Where to clone Frix-x repository config files (read-only and keep untouched)
-FRIX_CONFIG_PATH="${HOME}/klippain_config"
+FRIX_CONFIG_PATH="opt/iFactory3D_Gen3/klipper/klippain_config"
 # Path used to store backups when updating (backups are automatically dated when saved inside)
-BACKUP_PATH="${HOME}/klippain_config_backups"
+BACKUP_PATH="opt/iFactory3D_Gen3/klipper/klippain_config_backups"
 # Where the Klipper folder is located (ie. the internal Klipper firmware machinery)
-KLIPPER_PATH="${HOME}/klipper"
+KLIPPER_PATH="opt/iFactory3D_Gen3/klipper/klipper"
 # Branch from Frix-x/klippain repo to use during install (default: main)
 FRIX_BRANCH="main"
 
